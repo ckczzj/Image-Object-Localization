@@ -4,8 +4,6 @@ Given a picture with a bird, we are supposed to box the bird.
 
 <div align=center><img  src="https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/before.png"/></div>
 
-![](https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/before.png)
-
 In src/data directory, ```images.txt``` is the index of all images, ```bouding_boxex.txt``` is the label box of all images and  ```images``` contains all images. Box data make up of 4 data: the top left corner coordinate of box, width of box and height of box. 
 
 
@@ -14,27 +12,27 @@ In src/data directory, ```images.txt``` is the index of all images, ```bouding_b
 
 For traditional CNN and FC, it will meet degeneration problems when layers go deep.
 
-![](https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/degeneration1.png)
+<div align=left><img  src="https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/degeneration1.png"/></div>
 
-![](https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/degeneration2.png)
+<div align=right><img  src="https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/degeneration2.png"/></div>
 
 In paper ```Deep Residual Learning for Image Recognition```, they try to solve this problem by using a Residual Block:
 
-![](https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/ResidualBlock.png)
+<div align=center><img  src="https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/ResidualBlock.png"/></div>
 
 These blocks compose ResNet:
 
-![](https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/ResNet.png)
+<div align=center><img  src="https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/ResNet.png"/></div>
 
 I use ResNet-18 in this project by adding a 4-dimension layer after ResNet-18 to predict box's x, y ,w and h.
 
 Loss: smooth l1 loss
 
-![](https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/loss.png)
+<div align=center><img  src="https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/loss.png"/></div>
 
 Metric: IoU of groound truth and prediction, threshold=0.75
 
-![](https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/IoU.png)
+<div align=center><img  src="https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/IoU.png"/></div>
 
 
 
@@ -42,7 +40,7 @@ Metric: IoU of groound truth and prediction, threshold=0.75
 
 Resize all images to ```224*224*3```
 
-![](https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/after.png)
+<div align=center><img  src="https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/after.png"/></div>
 
 Then normalize and standardize all pixel channel.
 
@@ -50,11 +48,11 @@ Split all data into 9000 training data and 2788 tesing data. Train network on tr
 
 Training result:
 
-![](https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/model.png)
+<div align=center><img  src="https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/model.png"/></div>
 
 Testing result:
 
-![](https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/test.png)
+<div align=center><img  src="https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/test.png"/></div>
 
 
 
@@ -62,21 +60,16 @@ Testing result:
 
 Red box represents ground truth and green box is the prediction of network.
 
-![](https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/result1.png)
-
-![](https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/result2.png)
-
-![](https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/result3.png)
-
-![](https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/result4.png)
-
-![](https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/result5.png)
-
-![](https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/result6.png)
+<div align=center><img  src="https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/result1.png"/></div>
+<div align=center><img  src="https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/result2.png"/></div>
+<div align=center><img  src="https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/result3.png"/></div>
+<div align=center><img  src="https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/result4.png"/></div>
+<div align=center><img  src="https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/result5.png"/></div>
+<div align=center><img  src="https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/result6.png"/></div>
 
 Failed example:
 
-![](https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/fail.png)
+<div align=center><img  src="https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/fail.png"/></div>
 
 
 
