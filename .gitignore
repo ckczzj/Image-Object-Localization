@@ -1,3 +1,5 @@
 3150104669*
-localization*
+*.pdf
+*.pptx
+*.docx
 src/model.h5
