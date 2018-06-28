@@ -12,9 +12,11 @@ In src/data directory, ```images.txt``` is the index of all images, ```bouding_b
 
 For traditional CNN and FC, it will meet degeneration problems when layers go deep.
 
-<div align=left><img  src="https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/degeneration1.png"/></div>
+<figure class="half">
+<img  src="https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/degeneration1.png"/>
 
-<div align=right><img  src="https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/degeneration2.png"/></div>
+<img  src="https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/degeneration2.png"/>
+</figure>
 
 In paper ```Deep Residual Learning for Image Recognition```, they try to solve this problem by using a Residual Block:
 
@@ -113,7 +115,7 @@ If you want to test on trained model(if you had trained model), ```python test.p
 
 ### Reference
 
-[]: https://arxiv.org/pdf/1512.03385.pdf	"Deep Residual Learning for Image Recognition"
+[Deep Residual Learning for Image Recognition]: https://arxiv.org/pdf/1512.03385.pdf
 
 
 
