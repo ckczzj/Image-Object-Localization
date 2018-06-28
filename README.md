@@ -2,6 +2,8 @@
 
 Given a picture with a bird, we are supposed to box the bird.
 
+<div align=center><img  src="https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/before.png"/></div>
+
 ![](https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/before.png)
 
 In src/data directory, ```images.txt``` is the index of all images, ```bouding_boxex.txt``` is the label box of all images and  ```images``` contains all images. Box data make up of 4 data: the top left corner coordinate of box, width of box and height of box. 
