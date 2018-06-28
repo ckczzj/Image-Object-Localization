@@ -121,7 +121,7 @@ If you want to test on trained model(if you had trained model), ```python test.p
 
 ### Reference
 
-[Deep Residual Learning for Image Recognition]: https://arxiv.org/pdf/1512.03385.pdf
+[Deep Residual Learning for Image Recognition]: https://arxiv.org/pdf/1512.03385.pdf	"Deep Residual Learning for Image Recognition"
 
 
 
