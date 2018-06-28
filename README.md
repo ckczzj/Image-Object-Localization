@@ -63,16 +63,16 @@ Testing result:
 Red box represents ground truth and green box is the prediction of network.
 
 <div align=center>
-<img  src="https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/result1.png"/>
-<img  src="https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/result2.png"/>
+<img  height="300px" width="300px" src="https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/result1.png"/>
+<img  height="300px" width="300px" src="https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/result2.png"/>
 </div>
 <div align=center>
-<img  src="https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/result3.png"/>
-<img  src="https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/result4.png"/>
+<img   height="300px" width="300px" src="https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/result3.png"/>
+<img   height="300px" width="300px" src="https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/result4.png"/>
 </div>
 <div align=center>
-<img  src="https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/result5.png"/>
-<img  src="https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/result6.png"/>
+<img  height="300px" width="300px"  src="https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/result5.png"/>
+<img   height="300px" width="300px" src="https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/result6.png"/>
 </div>
 
 Failed example:
