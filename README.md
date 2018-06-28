@@ -12,11 +12,11 @@ In src/data directory, ```images.txt``` is the index of all images, ```bouding_b
 
 For traditional CNN and FC, it will meet degeneration problems when layers go deep.
 
-<figure class="half">
+<div align="center">
 <img  src="https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/degeneration1.png"/>
 
 <img  src="https://github.com/CKCZZJ/Image-Object-Localization/blob/master/img/degeneration2.png"/>
-</figure>
+</div>
 
 In paper ```Deep Residual Learning for Image Recognition```, they try to solve this problem by using a Residual Block:
 
